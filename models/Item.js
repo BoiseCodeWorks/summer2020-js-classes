@@ -7,4 +7,8 @@ export default class Item {
         this.quantity = 0
         this.auto = auto
     }
+
+    getButton() {
+        return `<button>${this.name}</button>`
+    }
 }
